@@ -1,6 +1,14 @@
 import React from "react";
-;
 
-const MealItemForm = () => {};
+import classes from './MealItemForm.module.css';
 
-export default MealItem
+const MealItemForm = props => {
+    return (
+        <form className={classes.form}>
+            <input></input>
+            <button>+ Add</button>
+        </form>
+    );
+};
+
+export default MealItemForm;
